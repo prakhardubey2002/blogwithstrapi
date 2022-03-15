@@ -25,4 +25,16 @@ function App() {
   );
 }
 
+// query GetReviews{
+//   reviews{
+    
+//     data{
+//       id
+//       attributes{
+//         Title,
+        
+//       }
+//     }
+//   }
+// }
 export default App;
