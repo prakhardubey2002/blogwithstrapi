@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital@0;1&family=Poppins:wght@300;400&display=swap');
+:root{
+  --Primary:rgb(0, 195, 255);
+}
 body {
   margin: 0;
   padding: 0%;
@@ -9,7 +12,7 @@ body {
 }
 h1,h2,h3,h4{
   font-weight: 500;
-  color: #8e2ad6;
+  color: var(--Primary);
 }
 .App{
   font-size: 1.2rem;
@@ -20,13 +23,13 @@ h1,h2,h3,h4{
 }
 a{
   text-decoration: none;
-  color: #8e2ad6;
+  color: var(--Primary);
   /* padding-bottom: 10px; */
   border-bottom: 1px dotted;
 }
 .site-header h1{
   font-size: 1.5rem;
-  color: #8e2ad6;
+  color: var(--Primary);
   padding-bottom: 10px;
   border-bottom: 2px solid ;
 }
@@ -41,7 +44,7 @@ a{
   position: absolute;
   top: -20px;
   left: -20px;
-  background: #8e2ad6;
+  background: var(--Primary);
   font-size: 3em;
   width: 90px;
   height: 90px;
